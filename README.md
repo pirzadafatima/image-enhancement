@@ -12,6 +12,12 @@ This is the equivalent of performing a logical NOT on the input image. This tech
 ### Histogram Stretch & Shrink
 Histogram stretching expands the range of intensity values in an image to utilize the full dynamic range, thereby enhancing contrast and improving visual quality.  Histogram shrink reduces the dynamic range of intensity values in an image, often used to highlight specific intensity ranges and enhance visual features.
 
+### ACE Filter
+The Adaptive Contrast Enhancement (ACE) filter is a method for enhancing image contrast by adaptively adjusting pixel intensities based on local image characteristics, resulting in improved visibility of details.
+
+### Histogram Specification
+Histogram specification is a technique used to manipulate the intensity distribution of an image to match a desired histogram, enabling control over the image's contrast, brightness, and overall appearance.
+
 ### Dependencies
 - Python 3.x
 - Tkinter
