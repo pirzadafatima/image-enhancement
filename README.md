@@ -18,6 +18,12 @@ The Adaptive Contrast Enhancement (ACE) filter is a method for enhancing image c
 ### Histogram Specification
 Histogram specification is a technique used to manipulate the intensity distribution of an image to match a desired histogram, enabling control over the image's contrast, brightness, and overall appearance.
 
+### Minimum Mean Square Error (MMSE) Enhancement
+The MMSE method is a statistical approach to image enhancement that estimates pixel values by minimizing the mean square error between the enhanced image and the ideal image. It reduces noise while preserving important image details, making it effective for improving image quality in low-light or noisy conditions.
+
+### Pseudo-Median Filter
+The Pseudo-Median Filter is a non-linear filter that enhances image quality by reducing noise while preserving edges. Unlike a standard median filter, it approximates the true median using a computationally simpler method, resulting in faster processing while maintaining effective noise suppression.
+
 ### Dependencies
 - Python 3.x
 - Tkinter
